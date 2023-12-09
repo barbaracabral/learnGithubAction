@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     container: node:10.18-jessie
     services:
-    postgres:
-    image: postgres
+      postgres:
+        image: postgres
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
