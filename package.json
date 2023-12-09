@@ -1,0 +1,14 @@
+{
+  "name": "learngithubaction",
+  "version": "1.0.0",
+  "description": "Este é um repositório de exemplo de GithubActions para os alunos do Grupo Integrado",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ci": "^2.3.0"
+  }
+}
