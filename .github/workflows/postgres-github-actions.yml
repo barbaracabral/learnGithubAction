@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4.1.1
+      - name: Node version
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
       - name: Install dependencies
         run: npm ci
       - name: Connect to PostgreSQL
